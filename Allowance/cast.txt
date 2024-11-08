@@ -1,0 +1,9 @@
+1. cast call <setup-contract-address> "challengeInstance() (address)" --rpc-url http://localhost:48334/a00d86c0-ee39-49d9-9f7a-49e0da16c6fc
+
+2. cast keccak "warlocksmurf wants your ethereum"
+
+3. cast send <Gurl-contract-address> "claim(bytes32)" <keccak-value-of-warlocksmurf> --value 0.01ether --rpc-url http://localhost:48334/a00d86c0-ee39-49d9-9f7a-49e0da16c6fc --private-key <private-key>
+
+4. cast call <setup-contract-address> "isSolved() (bool)" --rpc-url http://localhost:48334/a00d86c0-ee39-49d9-9f7a-49e0da16c6fc
+
+
