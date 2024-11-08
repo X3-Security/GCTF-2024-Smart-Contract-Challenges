@@ -37,19 +37,26 @@ Below is a list of the challenges, each with a brief description and objectives:
    **Description**: Gain unauthorized access by bypassing the owner modifier, focusing on access control weaknesses.  
    **Instructions**: Use Foundry to enter the folder, run `forge build`, and follow instructions in the test file to run the local test script.
 
+
 ## ⚙️ Getting Started
 
-1. **Setup**:  
-   - Ensure Foundry is installed.
-   - For each folder (except for **Allowance** and **Piece of Cake**), enter the challenge directory and run:
-     ```bash
-     forge build
-     ```
-   - **Timelock** has an on-chain exploit script (`.s.sol`), with further instructions in the test file.
+To work with these challenges, ensure you have Foundry installed and follow these general setup steps:
 
-2. **Solving the Challenges**:  
-   - Each challenge folder includes a Solidity contract and a test file with instructions.
-   - Follow each test file to execute solve scripts for local challenges.
+1. **Initialize Foundry**  
+   In each challenge folder, initialize a new Foundry project by running:
+   ```bash
+   forge init
+   ```
+
+2. **Build the Project**  
+   After initializing, build the project with:
+   ```bash
+   forge build
+   ```
+
+3. **Run Tests and Exploits**  
+   Each challenge includes a test file for local testing. **Timelock** also has an on-chain exploit script (`.s.sol`). Follow instructions within the test files to run the solve scripts and exploits.
+
 
 ## 📚 Educational Purpose
 
